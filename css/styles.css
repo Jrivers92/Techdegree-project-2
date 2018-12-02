@@ -43,6 +43,7 @@ p {
 .me {
   font-size: 2.25em;
   padding-top: 15px;
+  margin-top: 0;
 }
 
 .main-nav {
@@ -163,7 +164,7 @@ p {
 }
 
 .main-foot {
-  display: block;
+  display: flex;
   text-align: center;
   font-size: 1.4em;
   background: rgba(255,0,0,1);
@@ -230,6 +231,10 @@ border-radius: 20px;
 .foot-nav a {
   color: rgb(255, 255, 255);
 }
+
+.mobil-top {
+  display: contents;
+}
 /* =================================
     Media Query
 ==================================== */
@@ -269,6 +274,7 @@ border-radius: 20px;
 
 .foot-nav {
   text-align: center;
+  float: right;
 }
 .foot-name,
 .foot-nav,
@@ -280,16 +286,11 @@ border-radius: 20px;
 .foot-name {
   float: left;
 }
-
-.foot-nav {
-  float: right;
-}
   }
 @media (min-width: 1024px) {
   .me {
     float: left;
     }
-
 
   .main-nav {
     float: right;
