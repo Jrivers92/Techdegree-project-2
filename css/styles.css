@@ -232,15 +232,27 @@ border-radius: 20px;
   color: rgb(255, 255, 255);
 }
 
-.mobil-top {
-  display: contents;
+.foot-nav {
+  display: none;
 }
+
+
 /* =================================
     Media Query
 ==================================== */
 
 @media (min-width: 768px) {
 
+  .desktop {
+    display: inline-block;
+    float: right;
+    min-width: 80%;
+    text-align: right;
+  }
+
+  .mobil-top {
+    display: none;
+  }
   .wrap {
     max-width: 1300px;
     margin: 0 auto;
