@@ -149,6 +149,7 @@ p {
 }
 
 .information {
+  max-width: 100%;
   text-align: center;
   font-size: 1.2em;
   line-height: 1.6em;
@@ -216,6 +217,12 @@ border-radius: 20px;
   color: rgb(10, 10, 10);
 }
 
+.foot-name {
+  float: left;
+  font-size: 1.0em
+
+}
+
 .footer-name a,
 .footer-nav a {
   text-align: center;
@@ -234,6 +241,14 @@ border-radius: 20px;
 
 .foot-nav {
   display: none;
+}
+
+.mobil-top,
+.back {
+  float: right;
+  display: inline-block;
+  font-size: 1.0em;
+  color: rgb(0, 0, 0);
 }
 
 
